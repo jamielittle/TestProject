@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cw-umbraco-foundation", "http://localhost:64497", "{56ED972E-D2CA-49DF-88BA-0C64AF2D4186}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{9ed63bfa-e8ec-4d01-be55-037890a838c4}|Business.dll;{5bc464a3-b633-4b93-815b-dd3a4e338787}|DatabaseAbstractionLayer.dll;{55EA6ABB-B512-4A63-AC68-F51D7255A427}|Entities.dll;{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}|Interfaces.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64497"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\My Web Sites\cw-umbraco-foundation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64497\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64497"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\My Web Sites\cw-umbraco-foundation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64497\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\My Web Sites\cw-umbraco-foundation\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseAbstractionLayer", "DatabaseAbstractionLayer\DatabaseAbstractionLayer.csproj", "{5BC464A3-B633-4B93-815B-DD3A4E338787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{55EA6ABB-B512-4A63-AC68-F51D7255A427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CW-Interfaces", "Interfaces\CW-Interfaces.csproj", "{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{9ED63BFA-E8EC-4D01-BE55-037890A838C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cw-umbraco-foundation-webapp", "cw-umbraco-foundation-webapp\cw-umbraco-foundation-webapp.csproj", "{965547FB-9E8C-456B-879C-27D4617CA6D2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://calonweb.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost:64497
+		SccProjectName1 = cw-umbraco-foundation
+		SccLocalPath1 = ..\\..\\..\\My\u0020Web\u0020Sites\\cw-umbraco-foundation
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Business\\Business.csproj
+		SccProjectName2 = Business
+		SccLocalPath2 = Business
+		SccProjectUniqueName3 = DatabaseAbstractionLayer\\DatabaseAbstractionLayer.csproj
+		SccProjectName3 = DatabaseAbstractionLayer
+		SccLocalPath3 = DatabaseAbstractionLayer
+		SccProjectUniqueName4 = Entities\\Entities.csproj
+		SccProjectName4 = Entities
+		SccLocalPath4 = Entities
+		SccProjectUniqueName5 = cw-umbraco-foundation-webapp\\cw-umbraco-foundation-webapp.csproj
+		SccProjectName5 = cw-umbraco-foundation-webapp
+		SccLocalPath5 = cw-umbraco-foundation-webapp
+		SccProjectUniqueName6 = Interfaces\\CW-Interfaces.csproj
+		SccProjectName6 = Interfaces
+		SccLocalPath6 = Interfaces
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56ED972E-D2CA-49DF-88BA-0C64AF2D4186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ED972E-D2CA-49DF-88BA-0C64AF2D4186}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{56ED972E-D2CA-49DF-88BA-0C64AF2D4186}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5BC464A3-B633-4B93-815B-DD3A4E338787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC464A3-B633-4B93-815B-DD3A4E338787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC464A3-B633-4B93-815B-DD3A4E338787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC464A3-B633-4B93-815B-DD3A4E338787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EA6ABB-B512-4A63-AC68-F51D7255A427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EA6ABB-B512-4A63-AC68-F51D7255A427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EA6ABB-B512-4A63-AC68-F51D7255A427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EA6ABB-B512-4A63-AC68-F51D7255A427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDBBEF8-106E-4D8F-A0D8-1D6FD918494F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED63BFA-E8EC-4D01-BE55-037890A838C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED63BFA-E8EC-4D01-BE55-037890A838C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED63BFA-E8EC-4D01-BE55-037890A838C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED63BFA-E8EC-4D01-BE55-037890A838C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{965547FB-9E8C-456B-879C-27D4617CA6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{965547FB-9E8C-456B-879C-27D4617CA6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{965547FB-9E8C-456B-879C-27D4617CA6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{965547FB-9E8C-456B-879C-27D4617CA6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

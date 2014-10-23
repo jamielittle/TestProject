@@ -1,0 +1,6 @@
+﻿/* Makes the container full width of the browser */
+/*.container { width: 100%; }*/
+.top { background-color: grey;min-height: 200px;}
+.middle { min-height: 400px; }
+.bottom { background-color: black; color: white;}
+

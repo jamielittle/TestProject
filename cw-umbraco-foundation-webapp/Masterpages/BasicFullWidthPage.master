@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/PageBase-TopBottom.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Middle" runat="server">
+	<h1><umbraco:Item runat="server" field="Header" /></h1>
+	<umbraco:Item runat="server" field="content" />
+</asp:content>

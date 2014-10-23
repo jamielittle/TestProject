@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <title><umbraco:Item ID="Item1" runat="server" Field="Title"/></title>
+		<umbraco:Macro Alias="SEO" runat="server" />
+        <script src="http://code.jquery.com/jquery-1.9.0.js"></script>
+        <script src="/Scripts/responsivemobilemenu.js"></script>
+        <link href="/Css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/Css/bootstrap-responsive.min.css" rel="stylesheet" />
+        <link href="/Css/layout.css" rel="stylesheet" />
+        <link href="/Css/responsivemobilemenu.css" rel="stylesheet" />
+	</head>
+	<body>
+	    <div class="container">
+		    <div class="row-fluid top">
+                <umbraco:Macro Alias="Top" runat="server" />
+		    </div>
+		    <div class="row-fluid middle">
+                <asp:ContentPlaceHolder id="Middle" runat="server" />
+		    </div>
+		    <div class="row-fluid bottom">
+                <umbraco:Macro Alias="Bottom" runat="server"></umbraco:Macro>
+		    </div>
+        </div>
+	</body>
+</html>
+</asp:Content>

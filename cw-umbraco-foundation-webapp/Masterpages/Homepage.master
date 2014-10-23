@@ -1,0 +1,9 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/PageBase-TopBottom.master" AutoEventWireup="true" %>
+
+<%@ Register Src="/UserControls/Middle/SlyCoverFlow.ascx" TagPrefix="uc1" TagName="SlyCoverFlow" %>
+
+<asp:content ContentPlaceHolderId="Middle" runat="server">
+	<div class="span-12">
+	    <uc1:SlyCoverFlow runat="server" />
+	</div>
+</asp:content>
